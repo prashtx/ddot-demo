@@ -1,0 +1,10 @@
+{
+    "name": "ddot-demo",
+    "version": "0.0.1",
+    "private": true,
+    "engines" : { "node" : "0.6.x" },
+    "dependencies": {
+      "express": "3.0.x",
+      "request" : "2.9.x"
+  }
+}
