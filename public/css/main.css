@@ -442,8 +442,96 @@ td {
 
 
 
-#title {
+body {
   font-family: Lato, sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+header {
+  width: 400px;
+  margin: 10px auto 10px auto;
+}
+
+header h1 {
+  width: 200px;
+  margin: 0px auto 0px auto;
+}
+
+#container {
+  left: 100px;
+  width: 600px;
+}
+
+#display {
+  position: relative;
+  width: 500px;
+  height: 600px;
+  overflow-y: scroll;
+  margin: 20px auto 20px auto;
+  border: 1px solid #000;
+  background: #202020;
+}
+
+.message {
+  margin: 20px;
+  padding: 0;
+  width: 350px;
+}
+
+.message>div:first-child {
+  position: relative;
+  padding: 20px;
+  width: 310px;
+}
+
+.inbound {
+  margin-right: 80px;
+  background: #C2D8F2;
+}
+
+.outbound {
+  margin-left: 130px;
+  background: #C2F2F0;
+}
+
+.arrow-in {
+  position: relative;
+	width: 0; 
+	height: 0; 
+  top: 10px;
+  left: 30px;
+	border-left: 10px solid #C2D8F2;
+	border-bottom: 10px solid transparent;
+}
+
+.arrow-out {
+  position: relative;
+	width: 0; 
+	height: 0; 
+  top: 10px;
+  left: 260px;
+	border-right: 10px solid #C2F2F0;
+	border-bottom: 10px solid transparent;
+}
+
+#input {
+  width: 500px;
+  margin: 20px auto 20px auto;
+}
+
+#input input {
+  width: 400px;
+  margin: 0 5px 0 5px;
+  padding: 5px;
+}
+#input button {
+  width: 55px;
+  margin: 0 5px 0 5px;
+  padding: 5px;
 }
 
 
