@@ -25,8 +25,7 @@
           url: '/sms',
           type: 'POST',
           data: {
-            Body: msg,
-            From: '4155551234'
+            Body: msg
           }
         }).then(function (data) {
           input.val('');
